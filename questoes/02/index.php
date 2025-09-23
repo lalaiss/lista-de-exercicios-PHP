@@ -12,6 +12,7 @@
 
     <header>
         <h2>Questão 02: Metros para centimetros</h2>
+        <h3>Programa que converta metros para centímetros.</h3>
     </header>
 
     <main>
@@ -28,7 +29,7 @@
 
         $resultado = $metros * 100;
  
-        echo "O valor  $metros metros convertido em centímetros é :" . $resultado = $metros * 100 . "cm";
+        echo "O valor  $metros m² convertido em centímetros é :" . $resultado = $metros * 100 . "cm";
      ?>
     </main>
 

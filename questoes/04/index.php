@@ -17,6 +17,20 @@
     <main>
 
     <!-- implementação da solução -->
+
+    <form method="post">
+        <label for="area">Digite o tamanho da área em metros quadrados (m²):</label>
+        <input type="number" step="0.01" name="area" id="area" required>
+        <button type="submit">Calcular</button>
+    </form>
+
+    <?php
+     
+     $area = $_POST ['area'];
+
+
+
+    ?>
      
     </main>
 </body>

@@ -15,9 +15,16 @@
     </header>
 
     <main>
-
     <!-- implementação da solução -->
-     
+        <form>
+        <label for="numero1">Digite um número:</label> <input type="number"  name="numero" required>
+        <button type="submit">Enviar</button>
+        </form>
+
+        <?php
+
+        
+        ?>
     </main>
 </body>
 
