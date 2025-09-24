@@ -15,9 +15,14 @@
     </header>
 
     <main>
-
     <!-- implementação da solução -->
-     
+     <?php
+        $impares = [];
+        for ($i = 1; $i <= 50; $i += 2) {
+            $impares[] = $i;
+        }
+        echo "Números ímpares de 1 a 50: " . implode(", ", $impares);
+        ?>
     </main>
 </body>
 
