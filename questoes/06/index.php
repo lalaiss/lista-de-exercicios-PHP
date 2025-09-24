@@ -18,10 +18,10 @@
 
     <!-- implementação da solução -->
      
-    <form method="post">
+    <form method = "post">
         <label for="numero1">Digite o número 1:</label> <input type="number"  name="numero1" required>
-        <br><label for="numero1">Digite o número 2:</label> <input type="number"  name="numero2" required>
-        <br><label for="numero1">Digite o número 3:</label> <input type="number"  name="numero3" required>
+        <br><label for="numero2">Digite o número 2:</label> <input type="number"  name="numero2" required>
+        <br><label for="numero3">Digite o número 3:</label> <input type="number"  name="numero3" required>
         <button type="submit">Enviar</button>
     </form>
     
@@ -37,7 +37,7 @@
 
     echo "Números inseridos na ordem descrescentes: " ;
     foreach ($numero as $num) {
-        echo $num. ",";
+        echo $num.  " ";
     }
 
     ?> 
