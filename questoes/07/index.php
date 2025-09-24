@@ -12,6 +12,7 @@
 
     <header>
         <h2>Questão 07: Fatorial </h2>
+        <h3>Programa que calcule o fatorial de um número.</h3>
     </header>
 
     <main>
@@ -22,9 +23,18 @@
         </form>
 
         <?php
+        if (isset($_GET['numero'])) {
+            $num = $_GET['numero'];
+            $fatorial = 1;
 
-        
+            for ($i = 1; $i <= $num; $i++) {
+                $fatorial *= $i;
+            }
+
+            echo "O fatorial de $num ! é: " . $fatorial;
+        }
         ?>
+
     </main>
 </body>
 
