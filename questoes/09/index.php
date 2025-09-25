@@ -20,7 +20,7 @@
      
     <form>
     <label for="nome">Escreva o seu nome:</label> <input type="text"  name="nome" required>
-    <label for="idade">Escreva o sua idade:</label> <input type="text"  name="idade" required>
+    <label for="idade">Escreva o sua idade:</label> <input type="number"  name="idade" required>
     <button type="submit">Enviar</button>
     </form>
      
